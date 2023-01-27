@@ -1,7 +1,11 @@
 {
   "name": "node-project-02",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "/srcindex.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
   "license": "MIT",
   "dependencies": {
     "express": "^4.18.2"
